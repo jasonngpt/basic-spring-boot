@@ -35,6 +35,8 @@ public class CountryOfResidenceService extends BaseService{
         // Language Code
         List<String> languageList = getLanguageList(languageCode);
 
+        System.out.println("THIS IS FOR DEVELOPMENT BRANCH");
+        
         System.out.println("Version: " + version);
         for (String language : languageList) {
             System.out.println("Language Code: " + language);
